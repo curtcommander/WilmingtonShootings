@@ -6,13 +6,13 @@ Shooting reports are scraped from [Delaware Online's website](https://data.delaw
 
 App is live at [curtcommander.com/WilmingtonShootings/](https://curtcommander.com/WilmingtonShootings/). Data updated daily.
 
-### Features
+## Features
 
  - Interactive
  - Mobile-friendly
  - Cross-browser compatible (Chrome, Firefox, Safari, Internet Explorer, Opera)
 
-### Built with
+## Built with
 
  - Front End: HTML, CSS, JavaScript
  - Back End: Python
