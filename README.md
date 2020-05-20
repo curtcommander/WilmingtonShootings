@@ -10,7 +10,7 @@ App is live at [curtcommander.com/WilmingtonShootings/](https://curtcommander.co
 
  - Interactive
  - Mobile-friendly
- - Cross-browser compatible
+ - Cross-browser compatible (Chrome, Firefox, Safari, Internet Explorer, Opera)
 
 ### Built with
 
