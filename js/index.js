@@ -496,10 +496,11 @@ function barChart() {
         // change year by clicking on chart
         // setTimeouts used to fix load issues with IE
         window.changeYearListener = function() {
-            const rectsNum = $( 'iframe' ).contents().find('rect.remove.black').length;
+            const rectsNum = $( 'iframe' ).contents().find('#rects-bar-chart-black rect').length;
+            this.console.log(rectsNum)
             rectsNUM = yearCurrent-2010;
             if (rectsNum == rectsNUM) {
-                $( 'iframe' ).contents().find('rect.remove').on('click', function() {
+                $( 'iframe' ).contents().find('rect').on('click', function() {
                     // window.yearClicked from passYearParent in barChart.js
                     setTimeout( function () {
                         // custom date range
