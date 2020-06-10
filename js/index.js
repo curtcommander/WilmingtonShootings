@@ -119,8 +119,6 @@ function prepareDataObjects(currentData) {
     // add current data to dataChron and dataYearly
     dataChron = currentData;
     dataYear = dataYearly[year];
-    console.log(year)
-    console.log(dataYearly)
     for (let i = 0; i < dataChron.length; i++) {
         let d = dataChron[i];
         // remove year from dataChron
