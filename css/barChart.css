@@ -33,7 +33,6 @@ body {
 
 #select-series { 
     width: 45vmin;
-    min-width: 125px;
     padding: 5px 2px 3px 7px;
     border: 2px solid gray;
     border-radius: 5px;
